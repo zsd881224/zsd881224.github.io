@@ -83,12 +83,7 @@
                 contacts.attr('coords', [menuX1,menuY1,menuX2,menuY2].join(','));
             };
 
-            if(menuImg.complete) {
-                menuHandler();
-            }
-            else {
-                menuImg.on('load', menuHandler);
-            }
+            menuHandler();
 
             menuArea.bind('click', function () {
                 menuImg.show();

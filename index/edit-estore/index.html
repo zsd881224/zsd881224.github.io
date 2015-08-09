@@ -93,6 +93,7 @@
             };
 
             menuHandler();
+            menuImg.bind('load', menuHandler);
 
             menuArea.bind('click', function () {
                 menuImg.show();

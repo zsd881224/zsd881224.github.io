@@ -24,7 +24,7 @@
     (function () {
         var img = $('img');
 
-        img.bind('load', function () {
+        var imgHandler = function () {
             var width = img.width();
             var height = img.height();
 
@@ -43,7 +43,14 @@
 
             var eStoreArea = $('#J_EStoreArea');
             eStoreArea.attr('coords', [x1,y1,x2,y2].join(','));
-        });
+        };
+
+        if(img.complete) {
+            imgHandler();
+        }
+        else {
+            img.bind('load', imgHandler);
+        }
     })();
 </script>
 

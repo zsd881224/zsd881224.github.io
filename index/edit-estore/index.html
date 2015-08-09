@@ -33,7 +33,7 @@
     (function () {
         var img = $('#J_Background');
 
-        img.bind('load', function () {
+        var imgHandler = function () {
             var width = img.width();
             var height = img.height();
 
@@ -55,7 +55,7 @@
 
             var menuImg = $('#J_Menu');
 
-            menuImg.bind('load', function () {
+            var menuHandler = function () {
                 var menuWidth = menuImg.width();
                 var menuHeight = menuImg.height();
 
@@ -90,12 +90,26 @@
 
                 var contacts = $('#J_Contacts');
                 contacts.attr('coords', [menuX1,menuY1,menuX2,menuY2].join(','));
-            });
+            };
+
+            if(menuImg.complete) {
+                menuHandler();
+            }
+            else {
+                menuImg.bind('load', menuHandler);
+            }
 
             menuArea.bind('click', function () {
                 menuImg.show();
             });
-        });
+        };
+
+        if(img.complete) {
+            imgHandler();
+        }
+        else {
+            img.bind('load', imgHandler);
+        }
     })();
 </script>
 

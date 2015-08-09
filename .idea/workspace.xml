@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7473041c-e47f-4e4c-979f-a1d9418b2461" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index/index/index.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/community/index.html" afterPath="$PROJECT_DIR$/index/community/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/confirm-estore/index.html" afterPath="$PROJECT_DIR$/index/confirm-estore/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/contacts/index.html" afterPath="$PROJECT_DIR$/index/contacts/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/edit-estore/index.html" afterPath="$PROJECT_DIR$/index/edit-estore/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/estore/index.html" afterPath="$PROJECT_DIR$/index/estore/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/index/index.html" afterPath="$PROJECT_DIR$/index/index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zsd881224.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +35,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9175532" vertical-offset="0" max-vertical-offset="840">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8803192" vertical-offset="118" max-vertical-offset="945">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -382,18 +384,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/index/index.js">
+    <entry file="file://$PROJECT_DIR$/index/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="776">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.41888297" vertical-offset="0" max-vertical-offset="752">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/community/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7083333" vertical-offset="538" max-vertical-offset="1455">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state vertical-scroll-proportion="-5.0" vertical-offset="375" max-vertical-offset="1665">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -402,32 +404,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index/confirm-estore/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0" vertical-offset="508" max-vertical-offset="1485">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.3590425" vertical-offset="313" max-vertical-offset="1695">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/contacts/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8005319" vertical-offset="658" max-vertical-offset="1485">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.62101066" vertical-offset="868" max-vertical-offset="1695">
+          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/edit-estore/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70079786" vertical-offset="868" max-vertical-offset="1620">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8803192" vertical-offset="823" max-vertical-offset="1830">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index/estore/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8005319" vertical-offset="928" max-vertical-offset="1755">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.92021275" vertical-offset="928" max-vertical-offset="1965">
+          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -442,18 +444,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41888297" vertical-offset="0" max-vertical-offset="752">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9175532" vertical-offset="0" max-vertical-offset="840">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8803192" vertical-offset="118" max-vertical-offset="945">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding />
         </state>
       </provider>

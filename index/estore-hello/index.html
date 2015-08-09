@@ -10,13 +10,19 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
     <!--Page StyleSheets-->
     <link rel="stylesheet" href="./index.css"/>
+    <script src="../../assets/jquery.min.js"></script>
 </head>
 <body>
 
 <img src="../../assets/img/estore-hello.jpg" alt="" style="width:100%;">
 
+<script>
+    (function () {
+        setTimeout(function () {
+            location.href = '../estore/index.html';
+        }, 2000);
+    })();
+</script>
 
-<script src="../../assets/jquery.min.js"></script>
-<script src="./index.js"></script>
 </body>
 </html>

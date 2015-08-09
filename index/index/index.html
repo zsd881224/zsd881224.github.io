@@ -18,6 +18,8 @@
 <map name="index">
     <area id="J_IconArea" shape="rect" href="javascript:;">
     <area id="J_EStoreArea" shape="rect" href="../estore-hello/index.html"/>
+    <area id="J_Contacts" shape="rect" href="../contacts/index.html"/>
+    <area id="J_Community" shape="rect" href="../community/index.html"/>
 </map>
 
 <script>
@@ -43,6 +45,22 @@
 
             var eStoreArea = $('#J_EStoreArea');
             eStoreArea.attr('coords', [x1,y1,x2,y2].join(','));
+
+            x1 = width * 0.05;
+            y1 = height * 0.92;
+            x2 = width * 0.37;
+            y2 = height * 0.98;
+
+            var contacts = $('#J_Contacts');
+            contacts.attr('coords', [x1,y1,x2,y2].join(','));
+
+            x1 = width * 0.63;
+            y1 = height * 0.92;
+            x2 = width * 0.95;
+            y2 = height * 0.98;
+
+            var community = $('#J_Community');
+            community.attr('coords', [x1,y1,x2,y2].join(','));
         };
 
         if(img.complete) {

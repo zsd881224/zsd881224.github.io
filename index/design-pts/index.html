@@ -14,10 +14,11 @@
 </head>
 <body>
 
-<img id="J_Background" src="../../assets/img/confirm-estore.jpg" style="width:100%;" usemap="#index" hidefocus="true"/>
+<img id="J_Background" src="../../assets/img/design-pts.jpg" style="width:100%;" usemap="#index" hidefocus="true"/>
 <map name="index">
     <area id="J_MenuArea" shape="rect" href="javascript:;">
-    <area id="J_SuccessArea" shape="rect" href="../success-estore/index.html">
+    <area id="J_Next" shape="rect" href="../edit-estore/index.html"/>
+    <!--onfocus="blur(this);"-->
 </map>
 
 <img id="J_Menu" class="menu" src="../../assets/img/menu.jpg" usemap="#menu" hidefocue="true"/>
@@ -45,12 +46,12 @@
             menuArea.attr('coords', [x1,y1,x2,y2].join(','));
 
             x1 = width * 0.66;
-            y1 = height * 0.88;
-            x2 = width * 0.98;
-            y2 = height * 0.95;
+            y1 = height * 0.9;
+            x2 = width * 0.99;
+            y2 = height * 0.96;
 
-            var successArea = $('#J_SuccessArea');
-            successArea.attr('coords', [x1,y1,x2,y2].join(','));
+            var next = $('#J_Next');
+            next.attr('coords', [x1,y1,x2,y2].join(','));
 
             var menuImg = $('#J_Menu');
 

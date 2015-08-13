@@ -17,8 +17,8 @@
 <img id="J_Background" src="../../assets/img/estore.jpg" style="width:100%;" usemap="#index" hidefocus="true"/>
 <map name="index">
     <area id="J_MenuArea" shape="rect" href="javascript:;">
-    <area id="J_ChoosePostCards" shape="rect" href="../edit-estore/index.html"/>
-    <area id="J_ChooseStamps" shape="rect" href="../edit-estore/index.html"/>
+    <area id="J_DesignPts" shape="rect" href="../design-pts/index.html"/>
+    <area id="J_Next" shape="rect" href="../edit-estore/index.html"/>
     <!--onfocus="blur(this);"-->
 </map>
 
@@ -39,28 +39,28 @@
             var height = img.height();
 
             var x1 = width * 0.08;
-            var y1 = height * 0.07;
+            var y1 = height * 0.03;
             var x2 = width * 0.16;
-            var y2 = height * 0.11;
+            var y2 = height * 0.07;
 
             var menuArea = $('#J_MenuArea');
             menuArea.attr('coords', [x1,y1,x2,y2].join(','));
 
-            x1 = width * 0.01;
-            y1 = height * 0.50;
-            x2 = width * 0.33;
-            y2 = height * 0.56;
+            x1 = width * 0.66;
+            y1 = height * 0.48;
+            x2 = width * 0.99;
+            y2 = height * 0.54;
 
-            var choosePostCards = $('#J_ChoosePostCards');
-            choosePostCards.attr('coords', [x1,y1,x2,y2].join(','));
+            var designPts = $('#J_DesignPts');
+            designPts.attr('coords', [x1,y1,x2,y2].join(','));
 
-            x1 = width * 0.01;
+            x1 = width * 0.66;
             y1 = height * 0.9;
-            x2 = width * 0.33;
+            x2 = width * 0.99;
             y2 = height * 0.96;
 
-            var chooseStamps = $('#J_ChooseStamps');
-            chooseStamps.attr('coords', [x1,y1,x2,y2].join(','));
+            var next = $('#J_Next');
+            next.attr('coords', [x1,y1,x2,y2].join(','));
 
             var menuImg = $('#J_Menu');
 

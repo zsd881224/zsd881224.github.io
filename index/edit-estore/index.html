@@ -17,8 +17,8 @@
 <img id="J_Background" src="../../assets/img/edit-estore.jpg" style="width:100%;" usemap="#index" hidefocus="true"/>
 <map name="index">
     <area id="J_MenuArea" shape="rect" href="javascript:;">
+    <area id="J_Contacts2" shape="rect" href="../contacts/index.html">
     <area id="J_Upload" shape="rect" href="../confirm-estore/index.html">
-    <!--onfocus="blur(this);"-->
 </map>
 
 <img id="J_Menu" class="menu" src="../../assets/img/menu.jpg" usemap="#menu" hidefocue="true"/>
@@ -38,16 +38,24 @@
             var height = img.height();
 
             var x1 = width * 0.08;
-            var y1 = height * 0.07;
+            var y1 = height * 0.03;
             var x2 = width * 0.16;
-            var y2 = height * 0.11;
+            var y2 = height * 0.07;
 
             var menuArea = $('#J_MenuArea');
             menuArea.attr('coords', [x1,y1,x2,y2].join(','));
 
-            x1 = width * 0.01;
+            x1 = width * 0.66;
+            y1 = height * 0.35;
+            x2 = width * 0.99;
+            y2 = height * 0.4;
+
+            var contacts2 = $('#J_Contacts2');
+            contacts2.attr('coords', [x1,y1,x2,y2].join(','));
+
+            x1 = width * 0.66;
             y1 = height * 0.9;
-            x2 = width * 0.33;
+            x2 = width * 0.99;
             y2 = height * 0.96;
 
             var upload = $('#J_Upload');

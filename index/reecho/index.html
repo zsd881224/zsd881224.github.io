@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+	<title> EStore - Home </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"  />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+	<meta name="format-detection" content="email=no"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <!--Page StyleSheets-->
+    <link rel="stylesheet" href="./index.css"/>
+    <script src="../../assets/jquery.min.js"></script>
+</head>
+<body>
+
+<img src="../../assets/img/reecho.jpg" alt="" style="width:100%;" usemap="#index"/>
+<map name="index">
+    <area id="J_TravelingDiaryArea" shape="rect" href="../traveling-diary/index.html"/>
+</map>
+
+<script>
+    (function () {
+        var img = $('img');
+
+        var imgHandler = function () {
+            var width = img.width();
+            var height = img.height();
+
+            var x1 = width * 0.65;
+            var y1 = height * 0.56;
+            var x2 = width * 0.97;
+            var y2 = height * 0.62;
+
+            var travelingDiaryArea = $('#J_TravelingDiaryArea');
+            travelingDiaryArea.attr('coords', [x1,y1,x2,y2].join(','));
+        };
+
+        if(img.complete) {
+            imgHandler();
+        }
+        else {
+            img.bind('load', imgHandler);
+        }
+    })();
+</script>
+
+</body>
+</html>

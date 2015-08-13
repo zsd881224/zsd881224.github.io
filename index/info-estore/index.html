@@ -14,10 +14,11 @@
 </head>
 <body>
 
-<img id="J_Background" src="../../assets/img/confirm-estore.jpg" style="width:100%;" usemap="#index" hidefocus="true"/>
+<img id="J_Background" src="../../assets/img/info-estore.jpg" style="width:100%;" usemap="#index" hidefocus="true"/>
 <map name="index">
     <area id="J_MenuArea" shape="rect" href="javascript:;">
-    <area id="J_SuccessArea" shape="rect" href="../success-estore/index.html">
+    <area id="J_SendDigital" shape="rect" href="../send-digital/index.html">
+    <area id="J_PayArea" shape="rect" href="../pay-estore/index.html">
 </map>
 
 <img id="J_Menu" class="menu" src="../../assets/img/menu.jpg" usemap="#menu" hidefocue="true"/>
@@ -44,13 +45,21 @@
             var menuArea = $('#J_MenuArea');
             menuArea.attr('coords', [x1,y1,x2,y2].join(','));
 
-            x1 = width * 0.66;
-            y1 = height * 0.88;
-            x2 = width * 0.98;
-            y2 = height * 0.95;
+            x1 = width * 0.01;
+            y1 = height * 0.59;
+            x2 = width * 0.45;
+            y2 = height * 0.65;
 
-            var successArea = $('#J_SuccessArea');
-            successArea.attr('coords', [x1,y1,x2,y2].join(','));
+            var sendDigital = $('#J_SendDigital');
+            sendDigital.attr('coords', [x1,y1,x2,y2].join(','));
+
+            x1 = width * 0.55;
+            y1 = height * 0.59;
+            x2 = width * 0.99;
+            y2 = height * 0.65;
+
+            var payArea = $('#J_PayArea');
+            payArea.attr('coords', [x1,y1,x2,y2].join(','));
 
             var menuImg = $('#J_Menu');
 

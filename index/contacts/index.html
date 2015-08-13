@@ -17,7 +17,7 @@
 <img id="J_Background" src="../../assets/img/contacts.jpg" style="width:100%;" usemap="#index" hidefocus="true"/>
 <map name="index">
     <area id="J_MenuArea" shape="rect" href="javascript:;">
-    <!--onfocus="blur(this);"-->
+    <area id="J_ShootArea" shape="rect" href="../shoot-estore/index.html">
 </map>
 
 <img id="J_Menu" class="menu" src="../../assets/img/menu.jpg" usemap="#menu" hidefocue="true"/>
@@ -37,12 +37,20 @@
             var height = img.height();
 
             var x1 = width * 0.08;
-            var y1 = height * 0.07;
+            var y1 = height * 0.03;
             var x2 = width * 0.16;
-            var y2 = height * 0.11;
+            var y2 = height * 0.07;
 
             var menuArea = $('#J_MenuArea');
             menuArea.attr('coords', [x1,y1,x2,y2].join(','));
+
+            x1 = width * 0;
+            y1 = height * 0.6;
+            x2 = width * 1;
+            y2 = height * 0.69;
+
+            var shootArea = $('#J_ShootArea');
+            shootArea.attr('coords', [x1,y1,x2,y2].join(','));
 
             var menuImg = $('#J_Menu');
 

@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.menu {
+    width: 30%;
+    position: absolute;
+    top: 11%;
+    left: 12%;
+    display: none;
+}

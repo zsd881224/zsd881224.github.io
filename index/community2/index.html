@@ -14,10 +14,10 @@
 </head>
 <body>
 
-<img id="J_Background" src="../../assets/img/confirm-estore.jpg" style="width:100%;" usemap="#index" hidefocus="true"/>
+<img id="J_Background" src="../../assets/img/community2.jpg" style="width:100%;" usemap="#index" hidefocus="true"/>
 <map name="index">
     <area id="J_MenuArea" shape="rect" href="javascript:;">
-    <area id="J_SuccessArea" shape="rect" href="../success-estore/index.html">
+    <area id="J_CommunityArea" shape="rect" href="../community/index.html">
 </map>
 
 <img id="J_Menu" class="menu" src="../../assets/img/menu.jpg" usemap="#menu" hidefocue="true"/>
@@ -31,7 +31,6 @@
 <script>
     (function () {
         var img = $('#J_Background');
-
         var imgHandler = function () {
             var width = img.width();
             var height = img.height();
@@ -44,13 +43,13 @@
             var menuArea = $('#J_MenuArea');
             menuArea.attr('coords', [x1,y1,x2,y2].join(','));
 
-            x1 = width * 0.66;
-            y1 = height * 0.88;
-            x2 = width * 0.98;
-            y2 = height * 0.95;
+            x1 = width * 0.88;
+            y1 = height * 0.03;
+            x2 = width * 0.96;
+            y2 = height * 0.07;
 
-            var successArea = $('#J_SuccessArea');
-            successArea.attr('coords', [x1,y1,x2,y2].join(','));
+            var communityArea = $('#J_CommunityArea');
+            communityArea.attr('coords', [x1,y1,x2,y2].join(','));
 
             var menuImg = $('#J_Menu');
 
@@ -103,10 +102,9 @@
             imgHandler();
         }
         else {
-            img.bind('load', imgHandler);
+            img.bind('load',imgHandler);
         }
     })();
 </script>
-
 </body>
 </html>
